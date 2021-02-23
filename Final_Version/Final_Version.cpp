@@ -620,9 +620,6 @@ int main()
 	printf("            RAJIB DEY\n");
 	printf("        STUDENT ID : 1446112\n");
 	printf("\n\n");
-	printf("    MUHAMMAD MAZHAR ULLAH KHAN\n");
-	printf("        STUDENT ID : 1448441 \n");
-	printf("\n\n");
 	printf("\n\n");
 	printf(" PLEASE PRESS ENTER TO RUN THE PROGRAM\n");
 
