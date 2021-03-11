@@ -702,6 +702,10 @@ int main()
 
 					printf("INPUT COUNTRY   : ");
 					fgets(country, 100, stdin);
+					name[strcspn(name, "\n")] = 0;
+					lastName[strcspn(lastName, "\n")] = 0;
+					email[strcspn(email, "\n")] = 0;
+					country[strcspn(country, "\n")] = 0;
 					printf("PLEASE PRESS ENTER TO ADD THE DATA IN THE LIST\n");
 					InsertNode(myList, id, name, lastName, email, country); // add new node
 
